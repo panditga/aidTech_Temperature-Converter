@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: gray;
+}
+
+.converter {
+    background-color: red;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 0px 10px 10px blue;
+
+    
+}
+
+
+h1 {
+    text-align: center;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+input[type="number"] {
+    width: 70%;
+    padding: 10px;
+}
+
+select {
+    width: 28%;
+    padding: 10px;
+}
+
+button {
+    width: 100%;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+p#result {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+}
